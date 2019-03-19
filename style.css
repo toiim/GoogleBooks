@@ -1,0 +1,40 @@
+body {
+    width:100%;
+    padding:0px;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #efefef;
+}
+
+#resultContainer {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+#container {
+    width: 900px;
+    background-color: #fff;
+    color: #121212;
+    border-bottom: solid #eaa122 4px;
+    margin: 15px auto 15px auto;
+    padding:10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    user-select: none;
+    line-height: 1.5em;
+    border-bottom: solid #121212 4px;
+    border-top: solid #121212 4px;
+}
+
+.hr {
+    height:4px;
+    width: 100%;
+    background-color: #121212;
+    margin-bottom: 1em;
+}
+
+img {
+    user-select: none;
+}
